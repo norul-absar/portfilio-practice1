@@ -1,0 +1,94 @@
+
+
+.instrument-sans {
+  font-family: "Instrument Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Share style */
+.primarycolor{
+    color: tomato;
+
+}
+.dark2 {
+    color: #474747;
+}
+
+.button-primary{
+    background-color: tomato;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 16px 32px;
+    border: 0;
+}
+
+
+
+
+/* Nav style */
+
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+
+    background-position: top left, bottom right;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 120px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-title{
+    font-weight: 800;
+    font-size: 48px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+
+
+}
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/* banner-style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px 0 120px;
+}
+
+.banner-content{
+    max-width: 580px;
+}
+
+.banner-greeting{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 600;
+}
+
+.banner-des{
+    font-size: 18px;
+}
+
