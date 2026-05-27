@@ -35,6 +35,14 @@
     color: black;
 }
 
+.main-section{
+    margin-top: 120px;
+    margin-bottom: 120px;
+
+}
+
+
+
 
 
 /* Nav style */
@@ -132,3 +140,55 @@ nav li a {
 .item-description{
     font-weight: 600;
 }
+
+/* what i do */
+.section-des{
+    text-align: center;
+
+}
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 24px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* resume section */
+.resume-container{
+    display: flex;
+}
+
+.resume-download{
+    margin-top: 50px;
+}
+
+
+/* Footer */
+footer{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 120px;
+}
+
+footer{
+    display: flex;
+}
+
+.socila-link{
+    margin-right: 24px;
+}
+.footer-column{
+    width: 50%;
+}
+
+.Contact{
+    display: block;
+}
+
