@@ -33,7 +33,15 @@
     font-size: 35px;
     font-weight: 500;
     color: black;
+    
 }
+
+.section-des{
+    font-size: 18px;
+    
+}
+
+
 
 .main-section{
     margin-top: 120px;
@@ -119,31 +127,35 @@ nav li a {
 
 /* About me */
 
-.section-des{
-    font-size: 18px;
-}
-
-.about-items{
+.about-itms{
     display: flex;
     justify-content: space-around;
-   
-    
 }
+
+.itm-des{
+    font-weight: 700;
+}
+
 
 .about{
     border-radius: 10px;
     padding: 130px 150px;
-    text-align: center;
+    
 
 }
 
-.item-description{
-    font-weight: 600;
-}
 
 /* what i do */
+.skills{
+    margin: 96px 0 96px 0;
+}
+
+.section-title{
+    text-align: center;
+}
 .section-des{
     text-align: center;
+   margin-bottom: 68px;
 
 }
 
@@ -160,8 +172,18 @@ nav li a {
 
 
 /* resume section */
+.resu-container{
+    display: flex;
+    gap: 24px;
+}
+
 .resume-container{
     display: flex;
+    gap: 16px;
+}
+
+.resume-column{
+    
 }
 
 .resume-download{
@@ -169,17 +191,35 @@ nav li a {
 }
 
 
+.CTA{
+    text-align: center;
+    
+    margin-top: 40px;
+}
+
 /* Footer */
 footer{
     max-width: 1140px;
     margin: 0 auto;
     margin-top: 130px;
-    margin-bottom: 120px;
+   
 }
+
 
 footer{
     display: flex;
+    gap: 100px;
+    padding: 80px;
 }
+
+.footer-clumn{
+    width: 50%;
+}
+
+.section-title{
+    text-align: left;
+}
+
 
 .socila-link{
     margin-right: 24px;
@@ -188,7 +228,28 @@ footer{
     width: 50%;
 }
 
-.Contact{
+.Contact input[type="text"], textarea{
     display: block;
+    margin-bottom: 20px;
+    padding: 18px 24px;
+    background-color: white;
+    border: 0;
+    width: 100%;
+    
+
 }
+
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills-container, .resu-container, footer{
+        flex-direction: column;
+    }
+    
+}
+
+
 
